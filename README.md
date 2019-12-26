@@ -1,7 +1,6 @@
 # UITextFieldinUIAlert
 How to add UITextField to UIAlert (iOs - Swift)
 
-
 ```
       var textFieldAlert = UITextField()
         // Crecion del alert controller
@@ -26,3 +25,6 @@ How to add UITextField to UIAlert (iOs - Swift)
         alert.addAction(cancelar)
         // Mostrar el alert con el uitextfield
         present(alert, animated: true, completion: nil)
+
+```
+
