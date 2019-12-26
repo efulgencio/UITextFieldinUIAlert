@@ -56,15 +56,47 @@
 		419E89EB23B53FA80022B8C8 /* AlertWithTextField */ = {
 			isa = PBXGroup;
 			children = (
-				419E89EC23B53FA80022B8C8 /* AppDelegate.swift */,
+				419E8A0223B548610022B8C8 /* controllers */,
+				419E8A0123B548480022B8C8 /* appdelegate */,
+				419E8A0023B548340022B8C8 /* storyboard */,
 				419E89EE23B53FA80022B8C8 /* SceneDelegate.swift */,
-				419E89F023B53FA80022B8C8 /* ViewController.swift */,
-				419E89F223B53FA80022B8C8 /* Main.storyboard */,
 				419E89F523B53FA80022B8C8 /* Assets.xcassets */,
 				419E89F723B53FA80022B8C8 /* LaunchScreen.storyboard */,
 				419E89FA23B53FA80022B8C8 /* Info.plist */,
 			);
 			path = AlertWithTextField;
+			sourceTree = "<group>";
+		};
+		419E8A0023B548340022B8C8 /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				419E89F223B53FA80022B8C8 /* Main.storyboard */,
+			);
+			path = storyboard;
+			sourceTree = "<group>";
+		};
+		419E8A0123B548480022B8C8 /* appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				419E89EC23B53FA80022B8C8 /* AppDelegate.swift */,
+			);
+			path = appdelegate;
+			sourceTree = "<group>";
+		};
+		419E8A0223B548610022B8C8 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				419E8A0323B5486B0022B8C8 /* textfield */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		419E8A0323B5486B0022B8C8 /* textfield */ = {
+			isa = PBXGroup;
+			children = (
+				419E89F023B53FA80022B8C8 /* ViewController.swift */,
+			);
+			path = textfield;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
